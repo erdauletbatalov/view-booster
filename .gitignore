@@ -1,0 +1,23 @@
+# Игнорируем зависимости Go
+/go/bin/
+/go/pkg/
+/vendor/
+
+# Игнорируем кэш и временные файлы
+*.log
+*.out
+*.exe
+*.swp
+*.tmp
+
+# Игнорируем файлы окружения
+.env
+
+# Игнорируем файлы Docker
+**/docker-compose.override.yml
+**/docker-compose.yml.lock
+
+# Игнорируем IDE-файлы
+.vscode/
+.idea/
+*.iml
